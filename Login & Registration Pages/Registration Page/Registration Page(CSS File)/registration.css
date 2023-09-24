@@ -5,9 +5,11 @@
 }
 
 @font-face {
-    font-family: Outfit;
-    src: url(https://github.com/madhavagarwal3012/Chanakya/blob/main/Main%20Page%20%26%20Fonts/Fonts/Outfit-VariableFont_wght.ttf);
+    font-family: 'Outfit';
+    src: url('https://raw.githubusercontent.com/madhavagarwal3012/Chanakya/main/Main%20Page%20%26%20Fonts/Fonts/Outfit-VariableFont_wght.ttf');
+    /* Add other font properties like font-weight, font-style if needed */
 }
+
 
 @font-face {
     font-family: Roboto;
