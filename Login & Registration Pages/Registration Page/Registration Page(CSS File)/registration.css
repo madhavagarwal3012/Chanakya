@@ -1,5 +1,12 @@
- body {
-  background: #0ABBC6;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="font-family: Outfit;">CHANAKYA</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Rishab87/Chanakya/main/Images/WhatsApp_Image_2023-09-22_at_9.00.28_PM-removebg-preview.png" type="image/x-icon">
+</head>
+<body style="font-family: Roboto; margin: 0; padding: 0; background-color: #0ABBC6;">
   max-height: 1700px; 
   max-width: 100vw;"
   margin: 0;
@@ -42,8 +49,6 @@
    --br-6xl: 25px;
    --br-xl: 20px;
  }
-
-
 *{
     padding: 0;
     margin: 0;
@@ -257,3 +262,5 @@
     font-size: 18px;
     text-decoration: underline;
 }
+</body>
+</html>
