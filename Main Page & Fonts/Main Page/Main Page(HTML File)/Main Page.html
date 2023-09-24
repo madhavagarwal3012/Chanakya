@@ -6,16 +6,7 @@
     <title>CHANAKYA</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/madhavagarwal3012/Chanakya@main/Main%20Page%20%26%20Fonts/Main%20Page/Main%20Page(CSS%20File)/Main%20Page.css">
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/madhavagarwal3012/Chanakya/f4975860993da87927b0e0ed0ab40dfccfdb062b/Images/Rectangle%20(1).png">
-    <script type="text/javascript">
-        reg=document.getElementById("Register")
-        login=document.getElementById("Login")
-
-        function openUrl( ){
-        winow.open( 'index1.html' ' _ blank' );
-
-        reg.onclick=()=>function() {openUrl()}
-        login.onclick=()=>"inde.html"
-    </script>
+    
 </head>
 <body>
     <div class="container">
@@ -192,6 +183,19 @@
             
     </div>
 
+    <script>
+    const reg = document.getElementById("Register");
+    const login = document.getElementById("Login");
+
+    reg.addEventListener("click", function () {
+        window.location.href = "https://madhavagarwal3012.github.io/Chanakya/Login%20%26%20Registration%20Pages/Registration%20Page/Registration%20Page(HTML%20File)/registration.html";
+    });
+    if (login) {
+        login.addEventListener("click", function () {
+            window.location.href = "https://madhavagarwal3012.github.io/Chanakya/Login%20%26%20Registration%20Pages/Login%20Page/login.html";
+        });
+    }
+</script>
     
 </body>
 </html>
